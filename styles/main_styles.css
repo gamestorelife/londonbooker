@@ -3662,7 +3662,7 @@ table {
 	outline: none;
 	border-radius: 25px;
 	transition: all .5s ease-in-out;
-	background: linear-gradient(to bottom, #621a1a, #4f4f4f);
+	background: transparent;
 	padding-right: 40px;
 	color:#fff;
   }
