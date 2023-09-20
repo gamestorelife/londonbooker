@@ -307,13 +307,13 @@ section
 {
 	position: fixed;
 	width: 100%;
-	background: linear-gradient(to bottom, brown, grey);
+	background: linear-gradient(to bottom, #621a1a, #8a8787);
 	z-index: 12;
 }
 .header.scrolled
 {
-	background: linear-gradient(to right, #c0bad9 0%, #d08080 50%);
-	opacity: .4;
+	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	opacity: .5;
 }
 
 /*********************************
@@ -2163,7 +2163,7 @@ select{
 	padding-left: 48px;
 	padding-right: 48px;
 	padding-bottom: 88px;
-	background: linear-gradient(to bottom, brown, grey);
+	background: linear-gradient(to bottom, #621a1a, #8a8787);
 	border-radius: 30px;
 	font-size: 16px;
 }
@@ -2284,7 +2284,7 @@ select{
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: linear-gradient(to bottom, #621a1a, #4f4f4f);
+	background: linear-gradient(to bottom, #621a1a, #8a8787);
 }
 .footer_title
 {
@@ -3552,7 +3552,7 @@ table {
 }
 
 .search_tab_lil.active {
-	background: linear-gradient(to bottom, brown, grey);
+	background: linear-gradient(to bottom, #621a1a, #8a8787);
 	color: #ffffff;
 	
 }
