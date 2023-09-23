@@ -26,6 +26,12 @@
 2. PC Versoin
 ************/
 
+
+:root {
+	--primary-color: linear-gradient(to bottom, #0c0c29, #727171); 
+  }
+
+
 @media screen and (max-width: 4100px) and (min-width: 992px), (min-width: 4200px)
 {
 
@@ -976,7 +982,7 @@ background: #722df3;
 
 #roundedk.active
 {
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	color: #ffffff;
 }
 
@@ -1019,7 +1025,7 @@ transition: all 500ms ease;
 }
 
 .search_tab_lil.active {
-background:linear-gradient(to bottom, #621a1a, #8a8787);
+background:var(--primary-color);
 color: #ffffff;
 
 }
@@ -1053,22 +1059,22 @@ color: #ffffff;
 
 
 .menu-nav a:nth-child(1):hover{
-background: linear-gradient(to bottom, #621a1a, #8a8787);
+background: var(--primary-color);
 color: #ffffff;
 transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-background: linear-gradient(to bottom, #621a1a, #8a8787);
+background: var(--primary-color);
 color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-background: linear-gradient(to bottom, #621a1a, #8a8787);
+background: var(--primary-color);
 color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 width: 100%;
-background: linear-gradient(to bottom, #621a1a, #8a8787);
+background: var(--primary-color);
 transition: background-color 1s ease;
 color: #ffffff;
 
@@ -1409,7 +1415,7 @@ width: 100%;
 	.search_button
 	{
 		margin-top: 9px;
-		background: linear-gradient(to bottom, #621a1a, #8a8787);
+		background: var(--primary-color);
 	}
 	.intro_col
 	{
@@ -2116,7 +2122,7 @@ table {
 }
 
 .search_tab_lil.active {
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	color: #ffffff;
 	
 }
@@ -2149,22 +2155,22 @@ table {
 
 
 .menu-nav a:nth-child(1):hover{
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	color: #ffffff;
 	transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 	width: 100%;
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	transition: background-color 1s ease;
 	color: #ffffff;
 	
@@ -2779,7 +2785,7 @@ table {
 
 	#roundedk.active
 	{
-		background: linear-gradient(to bottom, #621a1a, #8a8787);
+		background: var(--primary-color);
 		color: #ffffff;
 	}
 
@@ -2822,7 +2828,7 @@ table {
 }
 
 .search_tab_lil.active {
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 	
 }
@@ -2855,22 +2861,22 @@ table {
 
 
 .menu-nav a:nth-child(1):hover{
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	color: #ffffff;
 	transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 	width: 100%;
-	background:llinear-gradient(to bottom, #621a1a, #8a8787);
+	background:var(--primary-color);
 	transition: background-color 1s ease;
 	color: #ffffff;
 	
@@ -3557,7 +3563,7 @@ table {
 }
 
 .search_tab_lil.active {
-	background:linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 	
 }
@@ -3590,22 +3596,22 @@ table {
 
 
 .menu-nav a:nth-child(1):hover{
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 	transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 	width: 100%;
-	background: linear-gradient(to bottom, #621a1a, #8a8787);
+	background: var(--primary-color);
 	transition: background-color 1s ease;
 	color: #ffffff;
 	
@@ -3754,7 +3760,7 @@ table {
 	.search_button
 	{
 		line-height: 44px;
-		background: linear-gradient(to bottom, #621a1a, #8a8787);
+		background: var(--primary-color);
 	}
 	.intro_item
 	{
