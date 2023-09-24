@@ -514,7 +514,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -1123,7 +1123,7 @@ select{
 5. Search
 *********************************/
 .vehicle1 {
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	height: 100%;
     margin: 10px;
     border-radius: 10px;
@@ -1145,7 +1145,7 @@ select{
 {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	z-index: 10;
 }
 .search_tabs_container
@@ -1198,7 +1198,7 @@ select{
 
 .search_tab.active
 {
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 		color: #ffffff;
 }
 .search_tab.active img
@@ -1930,7 +1930,7 @@ select{
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 }
 
 /*********************************
@@ -3177,7 +3177,7 @@ select{
 		-ms-transform: translateX(-50%);
 		-o-transform: translateX(-50%);
 		transform: translateX(-50%);
-		background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+		background: var(--primary-color);
 		z-index:4;
 }
 .menu2-hotel {
@@ -3192,7 +3192,7 @@ select{
 		-ms-transform: translateX(-50%);
 		-o-transform: translateX(-50%);
 		transform: translateX(-50%);
-		background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+		background: var(--primary-color);
 		z-index:4;
 		overflow: auto;
 }
@@ -3209,7 +3209,7 @@ select{
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	z-index:4;
 }
 
@@ -3225,7 +3225,7 @@ select{
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	z-index:4;
 }
 
@@ -3241,7 +3241,7 @@ select{
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	z-index:4;
 }
 
@@ -3473,7 +3473,7 @@ table {
 
 .done-close {
 	text-align: center;
-	background: #722df3;
+	background: var(--primary-color);
 		color: #ffffff;
 		border-radius: 15px;
 		width: 70%;
@@ -3487,7 +3487,7 @@ table {
 
 .done-close-apart {
 	text-align: center;
-	background: #722df3;
+	background: var(--primary-color);
 		color: #ffffff;
 		border-radius: 15px;
 		width: 70%;
@@ -3498,7 +3498,7 @@ table {
 
 .done-close-services {
 	text-align: center;
-	background: #722df3;
+	background: var(--primary-color);
 		color: #ffffff;
 		border-radius: 15px;
 		width: 70%;
@@ -3511,7 +3511,7 @@ table {
 
 	#roundedk.active
 	{
-		background:linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+		background:var(--primary-color);
 		color: #ffffff;
 	}
 
@@ -3587,22 +3587,22 @@ table {
 
 
 .menu-nav a:nth-child(1):hover{
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	color: #ffffff;
 	transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background:  var(--primary-color);
 	color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background:  var(--primary-color);
 	color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 	width: 500px;
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background:  var(--primary-color);
 	transition: background-color 1s ease;
 	color: #ffffff;
 	
@@ -3813,7 +3813,7 @@ table {
 	margin: auto;
 	width: fit-content;
 	padding: 45px;
-	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	background: var(--primary-color);
 	border-radius: 60px;
 	border-color: aqua;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  
