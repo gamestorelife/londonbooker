@@ -1905,7 +1905,7 @@ select{
 }
 .offers_link a:hover
 {
-	color: #fa9e1b;
+	color: var(--primary-color);
 }
 
 .spacial-r {
@@ -1953,7 +1953,7 @@ select{
 	left: 41px;
 	width: 72px;
 	height: 72px;
-	background: #fa9e1b;
+	background: var(--primary-color);
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -2114,13 +2114,13 @@ select{
 }
 .trending_title a:hover
 {
-	color: #fa9e1b;
+	color: var(--primary-color);
 }
 .trending_price
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #fa9e1b;
+	color: var(--primary-color);
 	margin-top: 2px;
 }
 .trending_location
@@ -2324,7 +2324,7 @@ select{
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	border: solid 1px #fa9e1b;
+	border: solid 1px #c8c8c8;
 	border-radius: 50%;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -2365,7 +2365,7 @@ select{
 }
 .footer_social_item:hover
 {
-	background: #fa9e1b;
+	background: var(--primary-color);
 }
 .footer_social_item:hover a i
 {
@@ -2416,13 +2416,13 @@ select{
 }
 .footer_blog_title a:hover
 {
-	color: #fa9e1b;
+	color: var(--primary-color);
 }
 .footer_blog_date
 {
 	font-size: 12px;
 	font-weight: 400;
-	color: #fa9e1b;
+	color: var(--primary-color);
 	margin-top: 7px;
 }
 
@@ -2440,7 +2440,7 @@ select{
 	float: left;
 	margin-right: 9px;
 	margin-bottom: 9px;
-	border: solid 1px #fa9e1b;
+	border: solid 1px #bdbdbd;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -2450,7 +2450,7 @@ select{
 }
 .tag_item:hover
 {
-	background: #fa9e1b;
+	background: linear-gradient(to bottom, #0c0c29, #727171);
 }
 .tag_item a
 {
@@ -2496,7 +2496,7 @@ select{
 .contact_info_item:hover .contact_info_text,
 .contact_info_item:hover .contact_info_text a
 {
-	color: #fa9e1b;
+	color: #0c0c29;
 }
 
 /*********************************
